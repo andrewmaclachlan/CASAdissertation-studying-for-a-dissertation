@@ -426,7 +426,7 @@ knitr::include_graphics('img/trello.png')
 ```
 ]
 
-```{r image_grobs3, echo=FALSE, fig.align="center", fig.show="hold", out.width="45%"}
+```{r image_grobs3, echo=FALSE, fig.align="default", fig.show="hold", out.width="30%"}
 knitr::include_graphics('img/research_log.png') 
 ```
 
