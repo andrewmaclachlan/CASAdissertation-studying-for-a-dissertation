@@ -130,7 +130,7 @@ class: inverse, center, middle
 
 # Remember it's *your* project
 ---
-# Read 
+# Read `r fa("book-reader")`
 
 Most staff members will say *"you should read widely"* but what does this mean and why bother?
 
@@ -138,7 +138,7 @@ Partly, it goes back to what do you want to learn? But also there are two "types
 
 1. Setting the scene reading
 
-  * This refers to broader, often global challenges. 
+  * This refers to broader, often global challenges, perahps from a different discipline altogether   
 
   * Journals such as Science, Nature or Global policy documents
 
@@ -256,9 +256,8 @@ class: inverse, center, middle
 
 The point of a discussion to critically reflect on your results in relation to literature and policy that you navigated through in the introduction / literature review.
 
+Critical reflection is not the limitations of the project
 .pull-left[
-Critical reflection 
-
 - How do your methods / results differ to that of literature and policy
   - do they differ? 
   - why do you think that is?
@@ -430,4 +429,177 @@ knitr::include_graphics('img/trello.png')
 knitr::include_graphics('img/research_log.png') 
 ```
 
+class: inverse, center, middle
+# Make some kind of plan 
+--
+
+### But be adaptable when it changes
+
 ---
+# Original etc
+
+**Original:** You need to write the assignment in your own words that tells a narrative through the existing research. Don’t just state what others have done 
+present or existing from the beginning; first or earliest
+
+**Coherent:** Make your points in a logical manner, with support from literature (or policy documents). Don’t just assume the reader knows what you are talking about because they are an academic. Build the story, don’t just jump to the ending.
+logical and consistent
+
+**Insightful:** Clearly showing that you understand the methods, concepts and debates discussed but also how your analysis (or discussion) did or could add meaning in some way. 
+having or showing an accurate and deep understanding; perceptive.
+
+---
+# Recall research language
+
+**Research gap:** You need to identify and discuss all the existing work and lead the reader to the gap. What is the gap. What hasn’t been done. Why is that important. MISSING
+
+**Contribution:** You’ve identified the gap. Be specific throughout your thesis what you are contributing…..As a result this thesis attempts to combine these two datasets for THIS REASON. Continue this through the thesis, especially in the discussion. A POTENTIAL ANSWER
+
+**Novel:** What is new? Remember this could be a new method, a new study area or a bit of both (or mix too). E.g. use an existing method with a slight variation appropriate for a new study area and some different data as that’s what was available or is free! WHAT IS NEW
+---
+class: inverse, center, middle
+# Write yours down
+
+Try writing yours down now
+
+Do this regularly
+
+`r countdown(minutes=0, seconds =45, warn_when = 10, top=0, left=0)`
+---
+class: inverse, center, middle
+# Read the markscheme weekly
+
+> Interpretations of results are very well constructed, clear and focused with a well developed narrative throughout. The discussion provides appropriate critical reflections on the project’s outcomes, strengths and limitations with good links to relevant academic and policy (if applicable) debates.
+---
+
+class: inverse, center, middle
+# Set a realistic research question 
+
+### The more specific you are with it the easier it will be to undertake your project
+
+this paper aims to critically examine typologies of neighbourhood change in order to provide insight into different pathways of neighbourhood transition in Singapore, while constructing an effective visualisation of Singapore’s gentrification landscape to aid spatial targeting of policy-making.
+
+--
+
+to evaluate the effects of family planning policies on the population, and the response from population to family planning policies
+
+---
+
+class: inverse, center, middle
+# Objectives?  
+
+### Often confused with research questions. Usually you have 1 or max 2, research questions
+
+What features of the built environment are thought to influence pedestrian safety, and can our understanding of these relationships be strengthened?
+
+What are the challenges when it comes to studying pedestrian safety in terms of the lack of available pedestrian data? Does Charlotte collect and make public the data required for this type of analysis?
+
+--
+
+To simulate the population changes in three different policy
+
+To understand the policy changes according to the simulation results
+
+---
+# Recall aims, questions and objectives
+
+**Research question:** Is the central question to the thesis that you will try to answer
+
+How might longitudinal census data and resale prices of residential properties lend insight into spatial patterns of potential neighbourhood gentrification prompted by conserved built heritage in Singapore?
+
+---
+# Recall aims, questions and objectives
+
+**Research aim:** Is a broad statement of intent that you will try and achieve within your thesis, it is usually just the research question rephrased
+
+this paper aims to critically examine typologies of neighbourhood change in order to provide insight into different pathways of neighbourhood transition in Singapore, while constructing an effective visualisation of Singapore’s gentrification landscape to aid spatial targeting of policy-making
+
+---
+# Recall aims, questions and objectives
+
+**Research objectives:** Think of research objectives as the set of measurable and specific goals you need to achieve your aim / research question. As you tick each one off you build a stronger case for answering the research question. It’s good practice (but not always essential) for objectives to follow the S.M.A.R.T. format
+
+* What features of the built environment are thought to influence pedestrian safety, and can our understanding of these relationships be strengthened?
+
+* What are the challenges when it comes to studying pedestrian safety in terms of the lack of available pedestrian data? Does Charlotte collect and make public the data required for this type of analysis?
+
+* Most importantly, how can the findings of this research be used to improve upon existing policy or urban design strategies by highlighting targeted areas and adjustments for improved pedestrian safety?
+---
+
+class: inverse, center, middle
+# Research question, aim, objectives?  
+--
+
+### Different examples have different combinations 
+--
+
+You need a research question and or aim
+
+**AND** objectives
+---
+
+class: inverse, center, middle
+# Where do I state them?  
+--
+
+### Usually at the end of the introduction 
+
+---
+# How else to study
+
+## It's a 9-5 job
+
+* **Study in chunks** - research a particular topic for a set amount of time - a day, two days, a week? Depending on how important that topic is to your dissertation 
+
+* **Plan** - what do you want to achieve today
+
+* **Reflect** - did you do it? why not? was it too ambitious? was the task bigger than you thought
+
+* **adjust** - use the new knowledge you've gained, can you now adjust your research question or topic even?
+
+* **is it useful** - do you need this? What is it contributing? 
+
+* **don't read everything** - there is so much out there, at some point you need to stop, when is that? 
+---
+
+class: inverse, center, middle
+# Reward yourself  
+--
+
+### After doing x i will do y 
+---
+# How else to study 2
+
+## Collaborate / talk to each other
+
+* With your supervisor 
+
+* With each other
+
+* If you have questions come to discuss them + solutions rather than expect answers.
+
+> I'm struggling to classify urban areas from satellite imagery, what do i do
+
+> I'm struggling to classify urban areas from satellite imagery. I've tried using Maximum likelihood but it doesn't produce very good results. I've read about SVM, do you think i should try it 
+
+* Describe your work in detail, including in captions. "Figure 6: Plot of GWR"
+---
+
+class: inverse, center, middle
+# What are you selling
+
+```{r echo=FALSE, out.width = "400pt", fig.align='center'}
+knitr::include_graphics('img/van.jpg') 
+```
+
+---
+# Next week
+
+* How to set up your dissertation document
+
+  * Word (briefly)
+
+  * Bookdown (using RMarkdown) - https://andrewmaclachlan.github.io/CASA-MSc-thesis/
+
+* Any requests on Slack
+
+* Q and A
