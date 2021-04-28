@@ -485,30 +485,38 @@ class: inverse, center, middle
 # Original etc
 
 **Original:** You need to write the assignment in your own words that tells a narrative through the existing research. Don’t just state what others have done 
-present or existing from the beginning; first or earliest
+
+*present or existing from the beginning; first or earliest*
 
 --
 
 **Coherent:** Make your points in a logical manner, with support from literature (or policy documents). Don’t just assume the reader knows what you are talking about because they are an academic. Build the story, don’t just jump to the ending.
-logical and consistent
+
+*logical and consistent*
 
 --
 
 **Insightful:** Clearly showing that you understand the methods, concepts and debates discussed but also how your analysis (or discussion) did or could add meaning in some way. 
-having or showing an accurate and deep understanding; perceptive.
+*having or showing an accurate and deep understanding; perceptive.*
 
 ---
 # Recall research language
 
-**Research gap:** You need to identify and discuss all the existing work and lead the reader to the gap. What is the gap. What hasn’t been done. Why is that important. MISSING
+**Research gap:** You need to identify and discuss all the existing work and lead the reader to the gap. What is the gap. What hasn’t been done. Why is that important. 
+
+MISSING
 
 --
 
-**Contribution:** You’ve identified the gap. Be specific throughout your thesis what you are contributing…..As a result this thesis attempts to combine these two datasets for THIS REASON. Continue this through the thesis, especially in the discussion. A POTENTIAL ANSWER
+**Contribution:** You’ve identified the gap. Be specific throughout your thesis what you are contributing…..As a result this thesis attempts to combine these two datasets for THIS REASON. Continue this through the thesis, especially in the discussion. 
+
+A POTENTIAL ANSWER
 
 --
 
-**Novel:** What is new? Remember this could be a new method, a new study area or a bit of both (or mix too). E.g. use an existing method with a slight variation appropriate for a new study area and some different data as that’s what was available or is free! WHAT IS NEW
+**Novel:** What is new? Remember this could be a new method, a new study area or a bit of both (or mix too). E.g. use an existing method with a slight variation appropriate for a new study area and some different data as that’s what was available or is free! 
+
+WHAT IS NEW
 
 ---
 class: inverse, center, middle
