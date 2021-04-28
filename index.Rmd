@@ -178,6 +178,8 @@ The introduction will talk about Global challenges:
 
 * Challenges of sustainability 
 
+--
+
 Towards the end of the introduction links will be made to specific local case studies / literature
 
 * For example, in the London Plan temperature mitigation is specified but no methodological details are provided
@@ -205,6 +207,8 @@ What has been done before, write a story and show what you are trying to investi
 What not to do - that students always do despite how many times i tell them.
 
 > Jones et al. (2017) found an interesting relationship between tree canopy coverage and heart diseases. They concluded more trees should be planted where there is a higher prevalence of heart disease. Zhang et al. (2014) found no relationship between tree canopy coverage. Smith et al. (2007) showed that trees and lung disease were related. 
+
+--
 
 This is just a list. Your job is to tell a story:
 
@@ -272,9 +276,12 @@ The point of a discussion to critically reflect on your results in relation to l
 
 Critical reflection is not the limitations of the project
 .pull-left[
+
+--
 - How do your methods / results differ to that of literature and policy
   - do they differ? 
   - why do you think that is?
+--
 
 - What is the point of your study / what can you suggest or recommend?
   - the point **IS NOT** to merely "support policy"
@@ -337,28 +344,6 @@ class: inverse, center, middle
 > Improving walkability is gaining traction as an essential strategy for achieving economic, public health and sustainability goals in cities worldwide. The newfound appreciation for walkability has coincided with concern about effectively facilitating safe walking journeys. While data-driven analysis methods have long been used to study vehicular traffic, such methods are only recently being applied to pedestrian problems
 
 `r countdown(minutes=0, seconds =45, warn_when = 10, top=0, left=0)`
----
-# Conclusion
-
-The conclusion simply provides a brief overview of the project:
-
---
-
-* restate what you set out to achieve 
-
---
-
-* briefly say how you did it
-
---
-
-* what the main results were
-
---
-
-* how this can contribute to future policy and/or literature
-
-**No new material or references are in the conclusion** 
 ---
 # Top tips
 
