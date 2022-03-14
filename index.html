@@ -13,6 +13,9 @@
     <script src="libs/tiny.toast/toast.min.js"></script>
     <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
+    <script src="libs/freezeframe/freezeframe.min.js"></script>
+    <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
+    <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":true,"warnings":true}</script>
     <script src="libs/fabric/fabric.min.js"></script>
     <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-scribble/scribble.js"></script>
@@ -21,19 +24,32 @@
     <link href="libs/xaringanExtra-search/search.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-search/search.js"></script>
     <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":true,"autoSearch":true}) })</script>
-    <script src="libs/freezeframe/freezeframe.min.js"></script>
-    <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
-    <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":true,"warnings":true}</script>
     <script src="libs/clipboard/clipboard.min.js"></script>
     <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
     <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"ecdeae64eeff405cbbde568beed12b66","expires":1}</script>
+    <script src="libs/himalaya/himalaya.js"></script>
+    <link href="libs/editable/editable.css" rel="stylesheet" />
+    <script src="libs/editable/editable.js"></script>
     <script src="libs/xaringanExtra_fit-screen/fit-screen.js"></script>
     <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
     <link href="libs/countdown/countdown.css" rel="stylesheet" />
     <script src="libs/countdown/countdown.js"></script>
     <script src="libs/kePrint/kePrint.js"></script>
     <link href="libs/lightable/lightable.css" rel="stylesheet" />
+    <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
+    </head>
+    <link rel="stylesheet" href="custom.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -57,7 +73,7 @@ class: inverse, center, title-slide, middle
 
 ### Andy MacLachlan
 
-### 14/04/2021 (updated: 28/04/2021)
+### 14/04/2021 (updated: 14/03/2022)
 
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>[a.maclachlan@ucl.ac.uk](mailto:a.maclachlan@ucl.ac.uk)
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>[andymaclachlan](https://twitter.com/andymaclachlan)
@@ -65,6 +81,90 @@ class: inverse, center, title-slide, middle
 <svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0z"/></svg>[Centre for Advanced Spatial Analysis, UCL](https://www.ucl.ac.uk/bartlett/casa/)
 
 &lt;a href="https://github.com/andrewmaclachlan" class="github-corner" aria-label="View source on GitHub"&gt;&lt;svg width="80" height="80" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"&gt;&lt;path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"&gt;&lt;/path&gt;&lt;path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"&gt;&lt;/path&gt;&lt;path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;style&gt;.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}&lt;/style&gt;
+
+---
+# Lecture Outline
+
+Aim: How to effectively study for a dissertation
+
+.pull-left[
+
+Outcomes (at the end of this lecture you should be able to...)
+
+* Set yourself up for a dissertation 
+
+* Write:
+  * introductions
+  * literature reviews 
+  * methodologies
+  * discussions
+  * conclusions
+  
+* Use research language in relation to your thesis 
+
+* Plan your project 
+]
+
+.pull-right[
+
+&lt;img src="img/research_process_2.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+
+.small[Source: [Dissertation Research in Education: Research Process](https://mc.libguides.com/eddoc/research)
+]
+]
+---
+
+# How to use the lectures
+
+- Slides are made with [xaringan](https://slides.yihui.org/xaringan/#1) 🗣 shar-in-gen or [ʃæ.ˈriŋ.gæn]
+
+- <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg> In the bottom left there is a search tool which will search all content of presentation
+
+- Control + F will also search 
+
+- Press enter to move to the next result 
+
+- <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg> In the top right let's you draw on the slides, although these aren't saved.
+
+- Pressing the letter `o` (for overview) will allow you to see an overview of the whole presentation and go to a slide
+
+- Alternatively just typing the slide number e.g. 10 on the website will take you to that slide
+
+- Pressing alt+F will fit the slide to the screen, this is useful if you have resized the window and have another open - side by side. 
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 110px;
+height: 128px;
+z-index: 0;
+background-image: url(img/casa_logo.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:1em;right:1em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
 
 ---
 class: inverse, center, middle
@@ -80,7 +180,9 @@ class: inverse, center, middle
 
 # What do(n't) you know?
 
-It's easy to list everything you don't know or aren't good at
+It's easy to list everything you **don't know or aren't good at**
+
+.pull-left[
 
 **Focus on and list:**
 
@@ -92,8 +194,14 @@ It's easy to list everything you don't know or aren't good at
 
 - What tools you know
 
+- What datasets you know of / can find
+
+- What you are interested in
+]
+
 --
 
+.pull-right[
 **Once you have that the link them together:**
 
 - Mind map
@@ -104,7 +212,13 @@ It's easy to list everything you don't know or aren't good at
 
 - Literature review or summary
 
-- Who agrees and disagrees, where, why, when, what has changed
+]
+
+--
+
+.center[
+**Who agrees and disagrees, where, why, when, what has changed = your story**
+]
 
 ---
 class: inverse, center, middle
@@ -112,9 +226,12 @@ class: inverse, center, middle
 ![](https://media.giphy.com/media/XyaQAnihoZBU3GmFPl/giphy.gif)
 
 ---
+
 # Set expectations 
 
 What do you want to gain from the dissertation and what is your end **GOAL** to the degree?
+
+.pull-left[
 
 Tell you supervisor: 
 
@@ -124,8 +241,11 @@ Tell you supervisor:
 
 * Ask them what they think
 
+]
+
 --
 
+.pull-right[
 **THEN** 
 
 * Set up your dissertation to ensure you cover them
@@ -134,42 +254,93 @@ Tell you supervisor:
 
 * Ask them what they think, from their experience 
 
+]
+
 ---
 
 class: inverse, center, middle
 
 # Remember it's *your* project
 ---
+
 # Read <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M352 96c0-53.02-42.98-96-96-96s-96 42.98-96 96 42.98 96 96 96 96-42.98 96-96zM233.59 241.1c-59.33-36.32-155.43-46.3-203.79-49.05C13.55 191.13 0 203.51 0 219.14v222.8c0 14.33 11.59 26.28 26.49 27.05 43.66 2.29 131.99 10.68 193.04 41.43 9.37 4.72 20.48-1.71 20.48-11.87V252.56c-.01-4.67-2.32-8.95-6.42-11.46zm248.61-49.05c-48.35 2.74-144.46 12.73-203.78 49.05-4.1 2.51-6.41 6.96-6.41 11.63v245.79c0 10.19 11.14 16.63 20.54 11.9 61.04-30.72 149.32-39.11 192.97-41.4 14.9-.78 26.49-12.73 26.49-27.06V219.14c-.01-15.63-13.56-28.01-29.81-27.09z"/></svg>
 
-Most staff members will say *"you should read widely"* but what does this mean and why bother?
+Most staff members will say 
 
-Partly, it goes back to what do you want to learn? But also there are two "types" of reading:
+&gt; *"you should read widely"*
+
+... but what does this actually mean and why bother?
+
+Partly, it goes back to what do you want to learn? 
+
+But also there are two "types" of reading:
 
 --
 
 1. Setting the scene reading
 
-  * This refers to broader, often global challenges, perahps from a different discipline altogether   
-
-  * Journals such as Science, Nature or Global policy documents
-
---
-
 2. Technical reading
 
-  * The nitty gritty of the methods
+---
+
+# Setting the scene reading
+
+This refers to broader, often global challenges, perhaps from a different discipline altogether   
+
+  * Journals such as Science, Nature or Global policy documents
+  
+
+.pull-left[  
+  
+  * UN Sustainable Development Goals 
+  
+  * C40 Cities
+  
+  * Sendai disaster risk framework
+  
+  * London Plan
+  
+  * Johannesburg’s Spatial Development Framework 2040]
+
+.pull-right[
+
+* Give cities a seat at the top table, Acuto 2016
+
+* Scientists must have a say in the future of cities, McPherson 2016
+
+* Global science for city policy, Acuto 2018
+
+* A global economic assessment of city policies to
+reduce climate change impacts, Estrada 2017
+
+* A unified theory of urban living, Bettencourt 2010
+]
+---
+
+# Technical reading
+
+The nitty gritty of the methods you want to apply
+
+**where**, **how** and **why** they have been applied and **what*8 has changed through time and across studies that have different data (and methods)
+
+Some considerations...
 
   * The specific detail of your study area
 
-  * Perhaps local policy challenges
+  * Perhaps local policy challenges or local geographic challenges 
   
   * Usually more specialist journals 
+  
+See Cheyne's dissertation section 2.4 or Signe's dissertation section 2.4.2
+  
 ---
 class: inverse, center, middle
 
+# In that theme...
+
 &lt;img src="img/filter.png" width="400pt" style="display: block; margin: auto;" /&gt;
 ---
+
 # Writing - introduction
 
 If you look at any paper, they usually start with a broad introduction to the issue they are exploring.
@@ -188,31 +359,34 @@ Towards the end of the introduction links will be made to specific local case st
 
 * For example, in the London Plan temperature mitigation is specified but no methodological details are provided
 
-* In recent years the development of local models to predict temperature has resulted in the potential to actively reform building construction yet....
+...in recent years the development of local models to predict temperature has resulted in the potential to actively reform building construction yet....
 
 ---
 class: inverse, center, middle
+
 # Start of introduction
 &gt;Traffic safety problems are causing incommensurate harm to pedestrians in cities around the world (Bartolomeos et al. 2013). In the United States, 49,340 pedestrians were killed by moving vehicles between 2008 and 2017 (Zaccaro 2019). As walkability becomes more central in the minds of transportation planners, government officials, and citizens due to the corresponding advantages in the realms of health, wealth, and happiness (see section 2.1), it is critical that pedestrian traffic fatalities come to be seen not as inevitable accidents, but as ‘preventable and unacceptable’ occurrences (City of Charlotte DOT 2019, p. 8). Further, it is essential that burgeoning cities like Charlotte, North Carolina, where this study is focused, are able to grow in ways that are both sustainable and appealing. In such places, effectively addressing pedestrian safety and walkability will be one of the keys to future success. Accordingly, this goal is an important component of various global and local policies (see section 2.2).
 
-<div class="countdown" id="timer_60895c59" style="top:0;left:0;" data-warnwhen="10">
+<div class="countdown" id="timer_622f888c" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">01</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">30</span></code>
 </div>
 ---
 class: inverse, center, middle
-# End of introduction
-&gt; Ultimately, this study intendsto contribute to the field of traffic safety research by further investigating the possibilities for data-driven advocacy for pedestrian needs and solutions. In the words of the visionary Enrique Penalosa, ‘The essence of the conflict today, really, is cars and people...We can have a city that is very friendly to cars, or a city that is very friendly to people. We cannot have both’ (NYC Streets Renaissance 2006).
 
-<div class="countdown" id="timer_60895bba" style="top:0;left:0;" data-warnwhen="10">
+# End of introduction
+&gt; Ultimately, this study intends to contribute to the field of traffic safety research by further investigating the possibilities for data-driven advocacy for pedestrian needs and solutions. In the words of the visionary Enrique Penalosa, ‘The essence of the conflict today, really, is cars and people...We can have a city that is very friendly to cars, or a city that is very friendly to people. We cannot have both’ (NYC Streets Renaissance 2006).
+
+<div class="countdown" id="timer_622f886e" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">00</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">45</span></code>
 </div>
 
 ---
+
 # Writing - literature review
 
 What has been done before, write a story and show what you are trying to investigate and contribute.
 
-What not to do - that students always do despite how many times i tell them.
+**What not to do** - that students always do despite how many times i tell them.
 
 &gt; Jones et al. (2017) found an interesting relationship between tree canopy coverage and heart diseases. They concluded more trees should be planted where there is a higher prevalence of heart disease. Zhang et al. (2014) found no relationship between tree canopy coverage. Smith et al. (2007) showed that trees and lung disease were related. 
 
@@ -229,15 +403,17 @@ This is just a list. Your job is to tell a story:
 
 ---
 class: inverse, center, middle
+
 # Literature review example
 
 &gt; According to the World Health Organization, twenty-two percent of all road fatalities each year are pedestrians (Bartolomeos et al. 2013, p. vii). This unsettling statistic can perhaps be attributed to the rapid growth of urban centers, paired with a lack of effort to expand pedestrian facilities (Halais 2020). Indeed, pedestrian safety is a problem all over the world. In cities in sub-Saharan Africa, more than half of all trips occur by foot (Pendakur 2005, p. 10), yet pedestrians are regularly and disproportionately involved in incidents with motor vehicles due to a lack of sufficient walkways, lighting, and other helpful urban design provisions (Halais 2020, Murgu´ıa 2018). 
 
-<div class="countdown" id="timer_60895cc3" style="top:0;left:0;" data-warnwhen="10">
+<div class="countdown" id="timer_622f870a" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">01</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
 ---
+
 # Writing - methods, results
 
 In the methods the writing usually stays focused on the current study area. It's good to have a few links to Global issues. For example:
@@ -255,79 +431,98 @@ In the methods the writing usually stays focused on the current study area. It's
 * The results show x, y, z, this contrasts to Jones et al. 2017 who exhibited this other trend
 
 Don't just list your results you want a sprinkling of literature throughout. 
+
 ---
 class: inverse, center, middle
+
 # Methods example
 
 ## Provide a high level overview first
 
 &gt; The number of crashes were predicted per road segment using the selected negative binomial regression model and the predictions were compared to the true values, again using MAE, MSE, and RMSE. Where an observation was missing data, the required values were imputed using the rfImpute() function (Breiman 2003). The predicted crashes were mapped, with emphasis on the top 1% and top 25% most dangerous roads. Kumfer et al. (2019) used Empirical Bayes estimates to weight the predictions with historical crash data, but this step was omitted here. The authors write that the non-weighted predictions offer ‘a more holistic measure of pedestrian crash risk, given the uncertainty about future crash locations inherent in any crash prediction method’ (Kumfer et al. 2019, p. 427).
 
-<div class="countdown" id="timer_60895be8" style="top:0;left:0;" data-warnwhen="10">
+<div class="countdown" id="timer_622f8752" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">01</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
 ---
+
 class: inverse, center, middle
+
 # Results example
 
 &gt; Figures 4.3 and 4.4 display the actual crash data and the predicted number of crashes spatially. These visualizations show that the model predictions have captured roads that have been dangerous in the past, while also highlighting roads that should potentially be the focus of future concern. To further emphasize the unsafe areas highlighted by the model, the top 1% and top 25% most dangerous roads based on the number of predicted crashes were located and mapped (see figure 4.5). The actual and predicted crash statistics for the 6 roads in the top 1% most dangerous can be seen in table 4.4.
 
-<div class="countdown" id="timer_60895b6f" style="top:0;left:0;" data-warnwhen="10">
+<div class="countdown" id="timer_622f85c2" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">00</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">45</span></code>
 </div>
 
 ---
 
+
 class: inverse, center, middle
+
 # Discussion 
 
 ![](https://media.giphy.com/media/RKRqGJinGNjIzNRy4P/giphy.gif)
 ---
-# Discussion
+
+# Discussion 2
 
 The point of a discussion to critically reflect on your results in relation to literature and policy that you navigated through in the introduction / literature review.
 
 Critical reflection is not the limitations of the project
 .pull-left[
 
---
 - How do your methods / results differ to that of literature and policy
   - do they differ? 
   - why do you think that is?
---
+
+]
+.pull-right[
 
 - What is the point of your study / what can you suggest or recommend?
   - the point **IS NOT** to merely "support policy"
   - be really specific 
-]
-.pull-right[
-&lt;img src="img/filter_norm.png" width="200pt" style="display: block; margin: auto;" /&gt;
+  
 ]
 
 The discussion flips the funnel we saw earlier, you go from being specific about your project to broader contributions
 
+&lt;img src="img/filter_norm.png" width="15%" style="display: block; margin: auto;" /&gt;
 ---
+
 class: inverse, center, middle
+
 # Discussion example 1
 
 &gt; As part of Charlotte’s work with Vision Zero, an online interactive feedback map was developed to allow citizens the opportunity to share concerns about traffic safety within the city (see figure 5.1). Griffin &amp; Jiao find that the use of such digital technologies may introduce accessibility challenges and bias, but that ultimately, ‘Crowdsourcing tools can be valuable approaches to increase geography and equity of public participation in transportation planning’ (Griffin &amp; Jiao 2019, p. 460). The Charlotte Vision Zero report explains: ‘The top five comments submitted related to traffic safety concerns were street design, speeding, lack of pedestrian facilities, failing to yield to pedestrians and drivers running stop signs and red lights’ (City of Charlotte DOT 2019, p. 22). The analysis conducted here has the potential to quantify the impact of changes to the built environment in terms of the number of pedestrian collisions, which could be a powerful tool for advocating for pedestrian needs in the city when combined with existing efforts such as the interactive map
 
-<div class="countdown" id="timer_60895db2" style="top:0;left:0;" data-warnwhen="10">
+<div class="countdown" id="timer_622f85d8" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">01</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
 ---
 class: inverse, center, middle
+
 # Discussion example 2
 
 &gt; The module “Document Management” provides ways to identify the change of information effectively. In the case study, the structural team members can find out what modification has been added in the model file by the architectural team, they can compare the versions of the model and all the additional features will be highlighted as Figure 11
 
-<div class="countdown" id="timer_60895e7f" style="top:0;left:0;" data-warnwhen="10">
+<div class="countdown" id="timer_622f876a" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">00</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">30</span></code>
 </div>
 
 ---
+
+
+class: inverse, center, middle
+
+# Discussion 2
+
+![](https://media.giphy.com/media/RKRqGJinGNjIzNRy4P/giphy.gif)
+---
+
 # Conclusion
 
 The conclusion simply provides a brief overview of the project:
@@ -352,17 +547,31 @@ The conclusion simply provides a brief overview of the project:
 
 --
 
-**No new material or references are in the conclusion** 
+* **No new material or references are in the conclusion** 
 ---
+
 class: inverse, center, middle
+
+# Discussion 
+
+![](https://media.giphy.com/media/RKRqGJinGNjIzNRy4P/giphy.gif)
+---
+
+
+---
+
+class: inverse, center, middle
+
 # Conclusion example (start of conclusion)
 
 &gt; Improving walkability is gaining traction as an essential strategy for achieving economic, public health and sustainability goals in cities worldwide. The newfound appreciation for walkability has coincided with concern about effectively facilitating safe walking journeys. While data-driven analysis methods have long been used to study vehicular traffic, such methods are only recently being applied to pedestrian problems
 
-<div class="countdown" id="timer_60895c1a" style="top:0;left:0;" data-warnwhen="10">
+<div class="countdown" id="timer_622f881d" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">00</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">45</span></code>
 </div>
+
 ---
+
 # Top tips
 
 Thinks that the majority of good MSc dissertations have, that no one really tells you. Remember that you will be editing this document daily, your marker won't! Guide them through it.
@@ -388,6 +597,7 @@ Thinks that the majority of good MSc dissertations have, that no one really tell
 <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"/></svg> Make your work relevant - Cheyne's dissertation section 2.2.1 - Global and local policies.
 
 ---
+
 # Top tips 2
 
 <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"/></svg>Send your supervisor work before meetings.
@@ -395,6 +605,19 @@ Thinks that the majority of good MSc dissertations have, that no one really tell
 --
 
 <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"/></svg>Ask questions the right way.
+
+--
+
+<svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"/></svg>Do NOT try and do an internship at the same time, you risk violating the terms of your visa and failing your dissertation. If you want industry experience then apply for a partner project...
+
+
+--
+
+<svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-right:0.2em;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"/></svg>Keep in touch with your supervisor...if you disappear we have to report it to student and support well being and success advisers. Again, if you aren't engaging this can put your visa at risk.
+
+---
+
+# Award winners
 
 &lt;table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;"&gt;
  &lt;thead&gt;
@@ -446,6 +669,57 @@ Thinks that the majority of good MSc dissertations have, that no one really tell
 &lt;/table&gt;
 
 ---
+class: inverse, center, middle
+
+# Award winners from last year, RGS Planning and Environment
+
+## Signe Swarttouw "Exploring the distribution of urban building carbon emissions: A spatial approach to Westminster’s decarbonisation strategy"
+
+### https://github.com/signesw/CASA0010_Dissertation
+
+---
+
+# What did these students do?
+
+
+.pull-left[
+If you look closely most **didn't**
+
+* compare lots of methods
+
+* do **very** complicated analysis 
+
+* produce an overly technical dissertation
+
+* state exactly what button they clicked and where
+
+* do an industry project or have an external partner to start with
+
+]
+
+--
+
+.pull-right[
+
+Most **did**
+
+* clearly identify a problem - using literature and policy 
+
+* have a well supported aim / research question and objectives that build towards them
+
+* used 1-2 methods, sometimes in combination
+
+* used slight variations of taught methods
+
+* specifically stated how this can contribute to answering / solving the problem in relation to local policy and Global goals
+
+* showed consideration of broader issues  
+
+]
+
+---
+
+
 # It's iterative 
 
 .pull-left[
@@ -488,82 +762,70 @@ The process **you will** do
 - Conclusion
 
 ]
----
-# Project planning
-
-Gantt Charts, Trello boards, Research logs
-
-.pull-left[
-&lt;img src="img/GanttChart.png" width="100%" /&gt;
-]
-.pull-right[
-&lt;img src="img/trello.png" width="100%" /&gt;
-]
-
-&lt;img src="img/research_log.png" width="30%" /&gt;
----
-class: inverse, center, middle
-# Make some kind of plan 
---
-
-### But be adaptable when it changes
 
 ---
-# Original etc
+
+# Originality and friends 
 
 **Original:** You need to write the assignment in your own words that tells a narrative through the existing research. Don’t just state what others have done 
 
-*present or existing from the beginning; first or earliest*
+&gt; *present or existing from the beginning; first or earliest*
 
 --
 
 **Coherent:** Make your points in a logical manner, with support from literature (or policy documents). Don’t just assume the reader knows what you are talking about because they are an academic. Build the story, don’t just jump to the ending.
 
-*logical and consistent*
+&gt; *logical and consistent*
 
 --
 
 **Insightful:** Clearly showing that you understand the methods, concepts and debates discussed but also how your analysis (or discussion) did or could add meaning in some way. 
-*having or showing an accurate and deep understanding; perceptive.*
+&gt; *having or showing an accurate and deep understanding; perceptive.*
 
 ---
 # Recall research language
 
 **Research gap:** You need to identify and discuss all the existing work and lead the reader to the gap. What is the gap. What hasn’t been done. Why is that important. 
 
-MISSING
+**MISSING**
 
 --
 
 **Contribution:** You’ve identified the gap. Be specific throughout your thesis what you are contributing…..As a result this thesis attempts to combine these two datasets for THIS REASON. Continue this through the thesis, especially in the discussion. 
 
-A POTENTIAL ANSWER
+**A POTENTIAL ANSWER**
 
 --
 
 **Novel:** What is new? Remember this could be a new method, a new study area or a bit of both (or mix too). E.g. use an existing method with a slight variation appropriate for a new study area and some different data as that’s what was available or is free! 
 
-WHAT IS NEW
+**WHAT IS NEW**
 
 ---
 class: inverse, center, middle
+
 # Write yours down
 
-Try writing yours down now
+## Try writing yours down now
 
-Do this regularly
+## Do this regularly (weekly!)
 
-<div class="countdown" id="timer_60895b66" style="top:0;left:0;" data-warnwhen="10">
+<div class="countdown" id="timer_622f8787" style="top:0;left:0;" data-warnwhen="10">
 <code class="countdown-time"><span class="countdown-digits minutes">00</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">45</span></code>
 </div>
+
 ---
+
 class: inverse, center, middle
+
 # Read the markscheme weekly
 
 &gt; Interpretations of results are very well constructed, clear and focused with a well developed narrative throughout. The discussion provides appropriate critical reflections on the project’s outcomes, strengths and limitations with good links to relevant academic and policy (if applicable) debates.
+
 ---
 
 class: inverse, center, middle
+
 # Set a realistic research question 
 
 ### The more specific you are with it the easier it will be to undertake your project
@@ -577,6 +839,7 @@ to evaluate the effects of family planning policies on the population, and the r
 ---
 
 class: inverse, center, middle
+
 # Objectives?  
 
 ### Often confused with research questions. Usually you have 1 or max 2, research questions
@@ -592,7 +855,12 @@ To simulate the population changes in three different policy
 To understand the policy changes according to the simulation results
 
 ---
-# Recall aims, questions and objectives
+
+# Now more on research aims, questions and objectives...
+
+---
+
+# Recall aims, questions and objectives 2
 
 **Research question:** Is the central question to the thesis that you will try to answer
 
@@ -601,16 +869,18 @@ To understand the policy changes according to the simulation results
 How might longitudinal census data and resale prices of residential properties lend insight into spatial patterns of potential neighbourhood gentrification prompted by conserved built heritage in Singapore?
 
 ---
-# Recall aims, questions and objectives
 
-**Research aim:** Is a broad statement of intent that you will try and achieve within your thesis, it is usually just the research question rephrased
+# Recall aims, questions and objectives 3
+
+**Research aim:** Is a broad statement of intent that you will try and achieve within your thesis, it is usually **just the research question rephrased**
 
 --
 
 this paper aims to critically examine typologies of neighbourhood change in order to provide insight into different pathways of neighbourhood transition in Singapore, while constructing an effective visualisation of Singapore’s gentrification landscape to aid spatial targeting of policy-making
 
 ---
-# Recall aims, questions and objectives
+
+# Recall aims, questions and objectives 4
 
 **Research objectives:** Think of research objectives as the set of measurable and specific goals you need to achieve your aim / research question. As you tick each one off you build a stronger case for answering the research question. It’s good practice (but not always essential) for objectives to follow the S.M.A.R.T. format
 
@@ -625,23 +895,27 @@ this paper aims to critically examine typologies of neighbourhood change in orde
 --
 
 * Most importantly, how can the findings of this research be used to improve upon existing policy or urban design strategies by highlighting targeted areas and adjustments for improved pedestrian safety?
+
 ---
 
 class: inverse, center, middle
+
 # Research question, aim, objectives?  
 --
 
-### Different examples have different combinations 
+## Different examples have different combinations 
 --
 
-You need a research question and or aim
+## You need a research question and or aim (you can have both)
 
 --
 
-**AND** objectives
+## **AND** objectives
+
 ---
 
 class: inverse, center, middle
+
 # Where do I state them?  
 --
 
@@ -664,7 +938,7 @@ class: inverse, center, middle
 
 --
 
-* **adjust** - use the new knowledge you've gained, can you now adjust your research question or topic even?
+* **Adjust** - use the new knowledge you've gained, can you now adjust your research question or topic even?
 
 --
 
@@ -681,11 +955,12 @@ class: inverse, center, middle
 
 ### After doing x i will do y 
 ---
+
 # How else to study 2
 
 ## Collaborate / talk to each other
 
-* With your supervisor 
+* With your supervisor - **send them  drafts** and **ask for comments**
 
 --
 
@@ -706,6 +981,12 @@ class: inverse, center, middle
 --
 
 * Describe your work in detail, including in captions. "Figure 6: Plot of GWR"
+
+---
+class: inverse, center, middle
+
+# Be specific in the right places...
+
 ---
 
 class: inverse, center, middle
@@ -714,6 +995,29 @@ class: inverse, center, middle
 &lt;img src="img/van.jpg" width="400pt" style="display: block; margin: auto;" /&gt;
 
 ---
+
+# Project planning
+
+Gantt Charts, Trello boards, Research logs
+
+.pull-left[
+&lt;img src="img/GanttChart.png" width="100%" /&gt;
+]
+.pull-right[
+&lt;img src="img/trello.png" width="100%" /&gt;
+]
+
+&lt;img src="img/research_log.PNG" width="40%" /&gt;
+
+---
+class: inverse, center, middle
+# Make some kind of plan 
+--
+
+### But be adaptable when it changes
+
+---
+
 # Next week
 
 * How to set up your dissertation document
