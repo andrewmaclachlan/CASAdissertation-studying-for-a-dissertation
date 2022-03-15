@@ -274,7 +274,10 @@ Journals such as Science, Nature or Global policy documents
   
 * London Plan
   
-* Johannesburg’s Spatial Development Framework 2040]
+* Johannesburg’s Spatial Development Framework 2040
+
+* New Urban Agenda
+]
 
 .pull-right[
 
@@ -298,7 +301,7 @@ reduce climate change impacts, Estrada 2017
 The nitty gritty of the methods you want to apply
 
 * **where**
-* **how** and 
+* **how**  
 * **why** 
 
 they have been applied  
@@ -434,18 +437,24 @@ This is just a list. Your job is to tell a story:
 
 > According to the World Health Organization, twenty-two percent of all road fatalities each year are pedestrians (Bartolomeos et al. 2013, p. vii). This unsettling statistic can perhaps be attributed to the rapid growth of urban centers, paired with a lack of effort to expand pedestrian facilities (Halais 2020). Indeed, pedestrian safety is a problem all over the world. In cities in sub-Saharan Africa, more than half of all trips occur by foot (Pendakur 2005, p. 10), yet pedestrians are regularly and disproportionately involved in incidents with motor vehicles due to a lack of sufficient walkways, lighting, and other helpful urban design provisions (Halais 2020, Murgu´ıa 2018). 
 
--- 
+--
 
 Difference is:
 
 * It's a story and you are guiding me through it....
 
-* The literature provides the SUPPORT to the points you make
+* **The literature provides the SUPPORT to the points you make**
 
 * The literature might give you ideas but it doesn't then form the **direct** basis of your writing...it is there backing you up.
 
 ---
 
+class: inverse, center, middle
+
+# **The literature provides the SUPPORT to the points you make**
+
+
+---
 # Writing - methods, results
 
 In the methods the writing usually stays focused on the current study area. It's good to have a few links to Global issues. For example:
@@ -472,8 +481,6 @@ Don't just list your results you want a **sprinkling of literature** throughout.
 
 > The number of crashes were predicted per road segment using the selected negative binomial regression model and the predictions were compared to the true values, again using MAE, MSE, and RMSE. Where an observation was missing data, the required values were imputed using the rfImpute() function (Breiman 2003). The predicted crashes were mapped, with emphasis on the top 1% and top 25% most dangerous roads. Kumfer et al. (2019) used Empirical Bayes estimates to weight the predictions with historical crash data, but this step was omitted here. The authors write that the non-weighted predictions offer ‘a more holistic measure of pedestrian crash risk, given the uncertainty about future crash locations inherent in any crash prediction method’ (Kumfer et al. 2019, p. 427).
 
-`r countdown(minutes=1, seconds =0, warn_when = 10, bottom=0, left=0)`
-
 ---
 
 # Methods example 2
@@ -481,8 +488,6 @@ Don't just list your results you want a **sprinkling of literature** throughout.
 ## Provide a high level overview first
 
 > One of the objectives of this dissertation is to explore the relationship between nutrition, income, and obesity in the MSOA area of London. As regression analysis is the method that allows us to examine the relationship between two or more variables, regression analysis was used here to find the relationship between different factors with obesity (Foley, B, 2018). From the past literature, we can know there was a linear relationship between income, nutrition, physical activities, and obesity. So first we used the least square linear regression analysis to see if there are still linear relationships between influenced factors and obesity in geographic scale
-
-`r countdown(minutes=0, seconds =45, warn_when = 10, bottom=0, left=0)`
 
 --
 
@@ -498,8 +503,6 @@ Difference is:
 
 > Figures 4.3 and 4.4 display the actual crash data and the predicted number of crashes spatially. These visualizations show that the model predictions have captured roads that have been dangerous in the past, while also highlighting roads that should potentially be the focus of future concern. To further emphasize the unsafe areas highlighted by the model, the top 1% and top 25% most dangerous roads based on the number of predicted crashes were located and mapped (see figure 4.5). The actual and predicted crash statistics for the 6 roads in the top 1% most dangerous can be seen in table 4.4.
 
-`r countdown(minutes=0, seconds =45, warn_when = 10, bottom=0, left=0)`
-
 ---
 
 # Results example 2
@@ -514,15 +517,10 @@ Most of the examples of a pass level on Moodle have the results in the discussio
 Difference is:
 
 * clarity of what is going on
-
-* the results aren't just stated...Figure x shows this, Figure Y shows this...the results re interpreted and then used to further the analysis and or in relation to other results. 
-
+* the results aren't just stated...Figure x shows this, Figure Y shows this...the results are interpreted and then used to further the analysis and or in relation to other results. 
 * what does the writing add that the figure doesn't? 
-
+* I can see that from the figure...so...you might briefly summarise the figure then interpret...
 * Do you need to write down what i can see it shows? Is that useful?
-
-`r countdown(minutes=0, seconds =45, warn_when = 10, bottom=0, left=0)`
-
 
 ---
 
@@ -563,8 +561,6 @@ knitr::include_graphics('img/filter_norm.png')
 # Discussion example 1
 
 > As part of Charlotte’s work with Vision Zero, an online interactive feedback map was developed to allow citizens the opportunity to share concerns about traffic safety within the city (see figure 5.1). Griffin & Jiao find that the use of such digital technologies may introduce accessibility challenges and bias, but that ultimately, ‘Crowdsourcing tools can be valuable approaches to increase geography and equity of public participation in transportation planning’ (Griffin & Jiao 2019, p. 460). The Charlotte Vision Zero report explains: ‘The top five comments submitted related to traffic safety concerns were street design, speeding, lack of pedestrian facilities, failing to yield to pedestrians and drivers running stop signs and red lights’ (City of Charlotte DOT 2019, p. 22). The analysis conducted here has the potential to quantify the impact of changes to the built environment in terms of the number of pedestrian collisions, which could be a powerful tool for advocating for pedestrian needs in the city when combined with existing efforts such as the interactive map
-
-`r countdown(minutes=1, seconds =0, warn_when = 10, top=0, left=0)`
 
 ---
 
@@ -625,9 +621,6 @@ The conclusion simply provides a brief overview of the project:
 # Conclusion example (start of conclusion)
 
 > Improving walkability is gaining traction as an essential strategy for achieving economic, public health and sustainability goals in cities worldwide. The newfound appreciation for walkability has coincided with concern about effectively facilitating safe walking journeys. While data-driven analysis methods have long been used to study vehicular traffic, such methods are only recently being applied to pedestrian problems
-
-`r countdown(minutes=0, seconds =30, warn_when = 10, bottom=0, left=0)`
-
 ---
 
 # Conclusion example 2
@@ -917,6 +910,8 @@ class: inverse, center, middle
 
   ...for?
 ---
+class: inverse, center, middle
+
 
 # More on research aims, questions and objectives...
 
