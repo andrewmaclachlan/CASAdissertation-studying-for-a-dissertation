@@ -82,18 +82,19 @@ Aim: How to effectively study for a dissertation
 
 Outcomes (at the end of this lecture you should be able to...)
 
-* Set yourself up for a dissertation 
+* **Part 1**: Set yourself up for a dissertation 
 
-* Write:
+* **Part 2**: Write:
   * introductions
   * literature reviews 
   * methodologies
   * discussions
   * conclusions
+  * tips
   
-* Use research language in relation to your thesis 
+* **Part 3**: Use research language in relation to your thesis 
 
-* Plan your project 
+* **Part 4**: Plan your project 
 ]
 
 .pull-right[
@@ -130,6 +131,12 @@ xaringanExtra::use_logo(
   image_url = "img/casa_logo.jpg"
 )
 ```
+
+---
+
+class: inverse, center, middle
+
+# **Part 1**: Set yourself up for a dissertation 
 
 ---
 class: inverse, center, middle
@@ -252,22 +259,26 @@ But also there are two "types" of reading:
 
 This refers to broader, often global challenges, perhaps from a different discipline altogether   
 
-  * Journals such as Science, Nature or Global policy documents
+Journals such as Science, Nature or Global policy documents
   
 
 .pull-left[  
+
+**Policy**
   
-  * UN Sustainable Development Goals 
+* UN Sustainable Development Goals 
   
-  * C40 Cities
+* C40 Cities
   
-  * Sendai disaster risk framework
+* Sendai disaster risk framework
   
-  * London Plan
+* London Plan
   
-  * Johannesburg’s Spatial Development Framework 2040]
+* Johannesburg’s Spatial Development Framework 2040]
 
 .pull-right[
+
+**Papers**
 
 * Give cities a seat at the top table, Acuto 2016
 
@@ -315,6 +326,18 @@ class: inverse, center, middle
 knitr::include_graphics('img/filter.png') 
 ```
 ---
+class: inverse, center, middle
+
+# **Part 2**: Write:
+## introductions
+## literature reviews 
+## methodologies
+## discussions
+## conclusions
+## tips
+
+#### the following are extracts and don't represent the entire thesis / final grade
+---
 
 # Writing - introduction
 
@@ -326,7 +349,9 @@ The introduction will talk about Global challenges:
 
 * Population increase
 
-* Challenges of sustainability 
+* Challenges of sustainability
+
+* What is your challenge ? 
 
 --
 
@@ -342,7 +367,6 @@ Towards the end of the introduction links will be made to specific local case st
 
 >Traffic safety problems are causing incommensurate harm to pedestrians in cities around the world (Bartolomeos et al. 2013). In the United States, 49,340 pedestrians were killed by moving vehicles between 2008 and 2017 (Zaccaro 2019). As walkability becomes more central in the minds of transportation planners, government officials, and citizens due to the corresponding advantages in the realms of health, wealth, and happiness (see section 2.1), it is critical that pedestrian traffic fatalities come to be seen not as inevitable accidents, but as ‘preventable and unacceptable’ occurrences (City of Charlotte DOT 2019, p. 8). Further, it is essential that burgeoning cities like Charlotte, North Carolina, where this study is focused, are able to grow in ways that are both sustainable and appealing. In such places, effectively addressing pedestrian safety and walkability will be one of the keys to future success. Accordingly, this goal is an important component of various global and local policies (see section 2.2).
 
-`r countdown(minutes=1, seconds =30, warn_when = 10, bottom=0, left=0)`
 ---
 
 # Start of introduction 2
@@ -354,8 +378,8 @@ Towards the end of the introduction links will be made to specific local case st
 
 Difference is:
 
-* Specific BUT relevant detail - second one talks about the bast then says it's imperative now?  
-* Selling the analysis to us - do fires happen more in the UK? says who? vs...49,340 pedestrians were killed by moving vehicles between 2008 and 2017
+* Specific BUT relevant detail - second one talks about the past then says it's imperative now?  
+* Selling the analysis to us - do fires happen more in the UK? says who? vs...49,340 pedestrians were killed by moving vehicles between 2008 and 2017...reference
 * Consideration to the viewpoint of the terms..."not as inevitable accidents, but as ‘preventable and unacceptable"
 * Reference to SPECIFIC policy ...later expanded on
 
@@ -365,8 +389,6 @@ Difference is:
 # End of introduction
 > Ultimately, this study intends to contribute to the field of traffic safety research by further investigating the possibilities for data-driven advocacy for pedestrian needs and solutions. In the words of the visionary Enrique Penalosa, ‘The essence of the conflict today, really, is cars and people...We can have a city that is very friendly to cars, or a city that is very friendly to people. We cannot have both’ (NYC Streets Renaissance 2006).
 
-`r countdown(minutes=1, seconds =0, warn_when = 10, bottom=0, left=0)`
-
 ---
 
 # End of introduction 2
@@ -375,8 +397,6 @@ Difference is:
 in London considering the time of the fire and the physical location
 through a comprehensive analysis of the establishment of GIS and related
 fire models to propose a suitable fire station location.
-
-`r countdown(minutes=1, seconds =0, warn_when = 10, bottom=0, left=0)`
 
 --
 
@@ -625,7 +645,7 @@ Difference is:
 
 * Higher grades link this back to policy or bigger problems, review how it does (or doesn't!) solve the problem - you will have said this in the discussion too.
 
-* It's clear **what** they did and **WHY that is useful**
+* It's clear what **the problem was**, what **they did** and **WHY that is useful** in an overview
 
 ---
 
@@ -796,6 +816,11 @@ The process **you will** do
 
 ---
 
+class: inverse, center, middle
+
+
+# **Part 3**: Use research language in relation to your thesis 
+---
 # Originality and friends 
 
 **Original:** You need to write the assignment in your own words that tells a narrative through the existing research. Don’t just state what others have done 
@@ -957,6 +982,13 @@ class: inverse, center, middle
 --
 
 ## Usually at the end of the introduction 
+
+---
+
+class: inverse, center, middle
+
+
+# **Part 4**: Plan your project 
 
 ---
 # How else to study
