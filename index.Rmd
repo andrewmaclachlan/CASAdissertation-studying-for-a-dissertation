@@ -618,12 +618,16 @@ The conclusion simply provides a brief overview of the project:
 
 ---
 
-# Conclusion example (start of conclusion)
+# Conclusion example
+
+### start of conclusion
 
 > Improving walkability is gaining traction as an essential strategy for achieving economic, public health and sustainability goals in cities worldwide. The newfound appreciation for walkability has coincided with concern about effectively facilitating safe walking journeys. While data-driven analysis methods have long been used to study vehicular traffic, such methods are only recently being applied to pedestrian problems
 ---
 
 # Conclusion example 2
+
+### start of conclusion
 
 > This study mainly explores and discusses the effects of various commuting types on
 the obesity rate. Dividing 9 commuting types into 3, this study analyses the relationship between commuting and obesity by three methodologies, linear regression, K-means clustering and geographically weighted regression. The result demonstrates that carled commuting is highly correlative to the obesity rate, and non-car commuting only can slightly allay the situation of rapidly elevated obesity rate caused by car-led commuting
@@ -667,10 +671,16 @@ Thinks that the majority of good MSc dissertations have, that no one really tell
 `r fa("check-square", fill = "black")` Make your work relevant - Cheyne's dissertation section 2.2.1 - Global and local policies.
 
 ---
+class: inverse, center, middle 
 
+# `r fa("check-square", fill = "white")` Try to avoid having a results/discussion. Often (not always) this means there will be no discussion.
+
+## recall the observation from earlier about pass level dissertations doing this
+
+---
 # Top tips 2
 
-`r fa("check-square", fill = "black")`Send your supervisor work before meetings.
+`r fa("check-square", fill = "black")`Send your supervisor work before meetings.This is a condition to meet with me. 
 
 --
 
@@ -687,7 +697,11 @@ Thinks that the majority of good MSc dissertations have, that no one really tell
 
 --
 
-`r fa("check-square", fill = "black")` USE flow diagrams! 
+`r fa("check-square", fill = "black")` USE flow diagrams!
+
+--
+
+`r fa("check-square", fill = "black")` when reading old dissertations don't just read them whole - read one introduction and then compare that with another introduction + make notes on them
 
 ---
 
@@ -894,7 +908,9 @@ class: inverse, center, middle
 
 # Objectives?  
 
-### Often confused with research questions. Usually you have 1 or max 2, research questions
+Often confused with research questions. Usually you have 1 or max 2, research questions
+
+Examples of objectives... 
 
 > What features of the built environment are thought to influence pedestrian safety, and can our understanding of these relationships be strengthened?
 
